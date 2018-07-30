@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:paddingTop="3dp"
+        android:id="@+id/firstRowLL"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#5bafafaf"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:id="@+id/firstAvatarImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/firstTittleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Tittle"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/firstDescTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Description" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:paddingTop="3dp"
+        android:id="@+id/secondRowLL"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#5bafafaf"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:id="@+id/secAvatarImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/secTittleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Tittle"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/secDescTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Description" />
+    </LinearLayout>
+
+</LinearLayout>
